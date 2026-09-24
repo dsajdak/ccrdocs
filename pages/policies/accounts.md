@@ -152,7 +152,8 @@ To request a file or directory be restored from backup tape, please [fill out th
 
 #### Self-service home directory data restore
 
-Snapshots are taken daily of all user home directories.  These are available to each user to restore files themselves.  You will find a `.snapshot` directory in your home directory and subdirectories for the past 30 days.  To "restore" a file, simply copy it from the `.snapshot` subdirectory for the date you want, into your home or shared project or scratch directory.  
+Snapshots are taken daily of all user home directories.  These are available to each user to restore files themselves.  You will find snapshot directories within each subdirectory in your home directory.  You won't see this with a directory listing but can descend into the `.snapshot` directory 
+for the past 30 days.  To "restore" a file, simply copy it from the `.snapshot` subdirectory for the date you want, into your home or shared project or scratch directory.  
 
 Note: Symbolic links to directories outside of the home directory will only snapshot the link, not the data it's linking to.  
 
