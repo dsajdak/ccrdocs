@@ -1,7 +1,7 @@
 # Global Scratch Decommissioning
 
   
-The `/vscratch` file system is being removed from service on **Tuesday, November 24, 2026**.  Any data you'd like to preserve should be moved or copied to your group's shared project directory.  Groups that are currently using `/vscratch` will have their project directory quotas increased on September 29, 2026 to accommodate moving their scratch data.  If your group doesn't currently have a project directory, one will be created for you.
+The `/vscratch` file system is being removed from service on **Tuesday, November 24, 2026**.  Any data you'd like to preserve should be moved or copied to your group's shared project directory.  Groups that are currently using `/vscratch` will have their project directory quotas increased on September 29, 2026 to accommodate moving their scratch data.  If your group doesn't currently have a project directory, one will be created for you. For those `/vscratch` directories with NO usage, your group's directory will be deleted and the allocation expired in ColdFront.
 
 To prepare for this migration, please begin updating your job scripts and workflows now.  If there is data in scratch you no longer want, you can leave it there and it will be deleted automatically after 60 days.  
 
