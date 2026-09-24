@@ -13,10 +13,8 @@
     - Directories found in `/user/[CCRusername]`  
     - Home directories are owned and accessible only to the user.  Access should not be shared with other users.  Data sharing should be done with shared project directories.  
     - 25GB quota  
-    - To protect the filesystem, there is a limit of 10 million files per home directory
+    - To protect the file system, there is a limit of 10 million files per home directory
     - Automatically created for new users  
-    - Backed up nightly off campus by UBIT
-    - Backups maintained for 30 days
     - Snapshots are available for 30 days (see [below](#data-backup))   
 
   - **Project directories for academics:**  
@@ -26,8 +24,6 @@
     - Requests for free quota increases up to 5TB may be submitted using the [allocation change request](../portals/coldfront.md#allocation-change-requests) feature in ColdFront.  The PI **must** provide a valid justification or use case.  Requests should be made incrementally as storage needs change, unless your use case involves a large dataset.  
     - Groups that require more than 5TB of space, can [purchase additional storage](#purchasing-project-storage) at the current rate.  Please submit an [allocation change request](../portals/coldfront.md#allocation-change-requests) to begin the purchase process.  Include your account number and account signatory in the justification field.  
     - To protect the file system, there is a limit of 200 million files per project directory
-    - Backed up nightly off campus to UBIT's tape archive  
-    - Backups maintained for 30 days
     - Snapshots are available for 30 days (see [below](#data-backup))   
 
   - **Project directories for Roswell Park users:**  
@@ -61,14 +57,7 @@ To request a restore of deleted files, please complete [CCR's Backup Restore Req
 
 ### Global Scratch
 ==Global scratch is being phased out.  No new directories will be created.  Get [more information](../changelogs/scratch-shutdown.md) and move any data you'd like to preserve **BEFORE 7am on November 24, 2026**!==  
-- There is no guarantee of uptime  
-- Scratch file systems are designed for temporary storage and shorter-term processing of data  
-- To be used during job runs and moved or deleted at the completion of a job  
 - Data that has not been accessed in more than 60 days is automatically deleted nightly. See [Scratch Usage Policy](../policies/misuse.md#scratch-usage-policies)  
-- 10TB provided for free to all groups  
-- Use ColdFront to request an allocation for the `Global Scratch Storage` resource  
-- Directories found in `/vscratch/grp-[YourGroupName]`  
-- To protect the file system, groups are limited to 200 million files per directory.  
 - ==**NO SCRATCH FILE SYSTEMS ARE BACKED UP**==   
 
 !!! Danger "Automatic data deletions!"  
