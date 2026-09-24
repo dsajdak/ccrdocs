@@ -40,7 +40,7 @@ To initiate the purchase of additional project storage, the PI or project owner 
 In the `Allocation attributes` section, please enter:
 
 - What you'd like your storage quota to be.  This is in gigabytes (GB) and we sell in increments of 1000GB (or 1TB).  
-- What account number we should bill this purchase to (if this allocation is available to edit).   
+- What account number we should bill this purchase to (if this attribute is available to edit).   
 
 In the `Justification for Changes` box, please include:  
 
@@ -50,7 +50,7 @@ In the `Justification for Changes` box, please include:
     - External funds
 - Account number, if not provided under allocation attributes
 - If you do not have signatory authority on this account, please let us know who the invoice should be directed to on your behalf  
-- If you'd like to purchase the storage for more than one year, you must pay with a State account or get permission from your SPS program manager to use an RF account.  In general, RF does not allow purchases of more than 1 year.  Please indicate how many years you'd like to purchase  
+- Please indicate how many years you'd like to purchase. If you'd like to purchase the storage for more than one year, you must pay with a State account or get permission from your SPS program manager to use an RF account.  In general, RF does not allow purchases of more than 1 year.    
 
 !!! Warning "Please verify grant dates!"  
     We are required to bill for storage in yearly increments.  Please do not provide an RF account number that is not valid for the entire length of the storage payment as these will be rejected by SPS.  We are not permitted to prorate payments or split charges across accounts to accommodate grants ending in less than 1 year.

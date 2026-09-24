@@ -17,6 +17,7 @@
     - Automatically created for new users  
     - Backed up nightly off campus by UBIT
     - Backups maintained for 30 days
+    - Snapshots are available for 30 days (see [below](#data-backup))   
 
   - **Project directories for academics:**  
     - Shared by a single research group or course
@@ -27,6 +28,7 @@
     - To protect the file system, there is a limit of 200 million files per project directory
     - Backed up nightly off campus to UBIT's tape archive  
     - Backups maintained for 30 days
+    - Snapshots are available for 30 days (see [below](#data-backup))   
 
   - **Project directories for Roswell Park users:**  
     - Directories for individual research groups found in `/projects/rpci`  
@@ -48,10 +50,10 @@ Directories are auto-mounted when accessed.  Therefore, you need to know which d
 ### Data Backup
 
 **Data Snapshots**  
-Daily snapshots are available for 30 days for users to restore data from any of their directories themselves.  Instructions can be found in the [backup policies documentation](../policies/accounts.md#self-service-home-directory-data-restore)
+Daily snapshots are available for 30 days for users to restore data from any of their directories themselves.  Instructions can be found in the [backup policies documentation](../policies/accounts.md#self-service-data-restore)
 
 **Requesting a restore from backup:**  
-To request a restore of deleted files, please complete [CCR's Backup Restore Request form](https://ubuffalo.teamdynamix.com/TDClient/55/Portal/Requests/ServiceDet?ID=363).  Please provide the full path of the file/directory you would like restored and the date and time you would like us to target.  This would be the last known time the file/directory was on the file system.  If it has not been on the system at least 24 hours, it will not have made it to the backup tapes.  There is no guarantee your data is available for recovery but we will attempt to recover it. For self-service, you can utilize the daily snapshots available in home and project directories.  Instructions can be found in the [backup policies documentation.](../policies/accounts.md#self-service-home-directory-data-restore)
+To request a restore of deleted files, please complete [CCR's Backup Restore Request form](https://ubuffalo.teamdynamix.com/TDClient/55/Portal/Requests/ServiceDet?ID=363).  Please provide the full path of the file/directory you would like restored and the date and time you would like us to target.  This would be the last known time the file/directory was on the file system.  If it has not been on the system at least 24 hours, it will not have made it to the backup tapes.  There is no guarantee your data is available for recovery but we will attempt to recover it. For self-service, you can utilize the daily snapshots available in home and project directories.  Instructions can be found in the [backup policies documentation.](../policies/accounts.md#self-service-data-restore)
 
 !!! Warning  
       Due to limitations of the campus backup service, any directory containing over 50 million files is **NOT BACKED UP**.  The directory owner will be contacted if their directory reaches this level prior to stopping the backups.
